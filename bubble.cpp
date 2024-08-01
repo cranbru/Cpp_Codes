@@ -9,7 +9,7 @@ void Printarr(int *arr , int n){
 }
 
 void bubblearr(int *arr , int n){
-    for(int i =0 ;i<n-1; i++){
+    for(int i =0 ;i<n-1; i++){ //You can also add a checker. If in the 1st outer loop iteration, no element is swapped that means it is already sorted.
         for(int j = 0 ;j<n-i-1  ; j++){
             if(arr[j]>arr[j+1]){  // FOR DESCENDING JUST '>' --- '<'
                 swap(arr[j],arr[j+1]);
