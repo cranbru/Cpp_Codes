@@ -25,3 +25,4 @@ int main(){
     Printarr(arr,n);
     return 0;
 }
+//NONE OF THE SORTING TECHS IS USED IRL
