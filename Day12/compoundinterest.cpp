@@ -21,6 +21,8 @@ int main(){
     for(int i = 0 ; i<T ; i++){
         multipler *=newR;
     }
+
+    //THIS CODE CALCULATES COMPOUND INTEREST
     
     cout<<"YOUR FINAL AMOUNT AFTER INTEREST : "<<multipler*P<<endl;
     return 0;
