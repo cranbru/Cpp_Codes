@@ -14,9 +14,6 @@ void selectionsort(int *arr , int n ){
         }
         swap(arr[minindex],arr[i]);
     }
-
-
-    
 }
 
 
