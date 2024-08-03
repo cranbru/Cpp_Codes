@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-
+// It divides array into 2 parts sorted(genrally would be on the left part),unsorted(genrally on the right part)
+// Selection sort is kind of reverse of bubblesort
 //TC IS AGAIN N*N
 
 void selectionsort(int *arr , int n ){
