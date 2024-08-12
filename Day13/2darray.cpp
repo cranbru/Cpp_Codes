@@ -1,24 +1,31 @@
 #include <iostream>
 using namespace std;
 
-
-void Print2darray(int arr[][4],int n , int m ){
-    for(int i = 0 ; i<n ; i++){
-        for(int j = 0 ; j<n ;j++ ){
+void Printarr(int arr[][3] , int nrow , int ncolumn){// The size of dimensions of a multidimensional array must be specified
+    for(int i = 0 ; i<nrow ; i++){                   // To correctly compute the memory address of elements in the 2D array
+        for(int j = 0 ; j<ncolumn ; j++){
             cout<<arr[i][j]<<" ";
         }
         cout<<endl;
     }
 }
 
-int main(){
-    int arr[4][4] = {{1,2,3,4},
-                    {5,6,7,8},
-                    {9,10,11,12},
-                    {13,14,15,16}};
-    
-    int n = 4 , m = 4;
+void Inputarr(int arr[][3], int nrow , int ncolumn){
+    for(int i = 0; i<nrow ; i++){
+        for(int j =0 ; j<ncolumn ; j++){//Made a typo instead of j<ncolumn i wrote i<ncolumn #CAREFUL
+            cin>>arr[i][j];
+        }
+    }
 
-    Print2darray(arr,n,m);
+
+
+}
+
+int main(){
+    int arr[3][3] ;
+    int nrow = 3 , ncolumn = 3;
+    Inputarr(arr,nrow,ncolumn);
+    Printarr(arr,nrow,ncolumn);
+
     return 0;
 }
