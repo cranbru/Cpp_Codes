@@ -1,0 +1,1 @@
+Day 11 and 12 are weak (Sorting algos and arrays)
