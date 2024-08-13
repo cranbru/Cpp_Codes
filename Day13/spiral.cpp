@@ -8,46 +8,42 @@ using namespace std;
 
 
 void Spiral(int arr[][4], int n , int m ){
+
+    
     int startrow = 0 , startcolumn = 0 ;
     int endrow = m-1  , endcolumn = n-1;
 
-    //TOP
-    for(int j = startcolumn ; j<endcolumn+1 ;j++){
-        cout<<arr[startrow][j]<<' ';      
+    while(endrow>=startrow && endcolumn>=endrow){
+            for(int j = startcolumn ; j<endcolumn+1 ;j++){
+            cout<<arr[startrow][j]<<' ';      
+            }
+
+
+        //RIGHT
+        for(int i = startrow+1 ; i <endrow+1 ; i++){
+            cout<<arr[i][endcolumn]<<" ";
         }
 
 
-    //RIGHT
-    for(int i = startrow+1 ; i <endrow+1 ; i++){
-        cout<<arr[i][endcolumn]<<" ";
-    }
+        //BOTTOM
 
+        for(int j = endcolumn-1 ; j>=startcolumn ;j--){
+            cout<<arr[endrow][j]<<' ';      
+            }
 
-    //BOTTOM
-
-    for(int j = endcolumn-1 ; j>=startcolumn ;j--){
-        cout<<arr[endrow][j]<<' ';      
-        }
-
-    //LEFT
+        //LEFT
     
-    for(int i = endrow-1 ; i >startrow ; i--){
-        cout<<arr[i][startcolumn]<<" ";
+        for(int i = endrow-1 ; i >startrow ; i--){
+            cout<<arr[i][startcolumn]<<" ";
+        }
+
+
+        startcolumn++,startrow++;//WE CAN USE BOTH COMMAS AND SEMICOLON IN SEPERATING THESE TWO OPERATIONS startcolum++ , startrow++     ==   startcolum++ ; startrow++
+        endrow--,endcolumn--;
+
     }
-
-
-    //while(........){
-       // for(int i = startrow ; i<endrow+1  ;i++){
-
-       // }
-
-
-    //}
 
 }
-
-
-
 
 int main(){
     int arr[4][4] = {{1,2,3,4},
