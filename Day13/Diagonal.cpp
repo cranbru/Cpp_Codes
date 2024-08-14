@@ -14,8 +14,7 @@ void Diagon(int arr[][3],int n , int m){
     
     }
     
-    cout<<sum;
-
+    cout<<"The sum is "<<sum;
 
 }
 
