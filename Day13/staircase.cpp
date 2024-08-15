@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+
+
 void stair(int arr[][4],int n , int m , int key){
     int row = 0, column = m-1;
     while(row<n && column>=0){
