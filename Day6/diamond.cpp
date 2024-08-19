@@ -19,7 +19,7 @@ int main(){
 
     }
 
-    for(int i = n ; i>=1 ;i--){
+    for(int i = n ; i>=1 ;i--){//Just reversing the loop
         for(int o = 1 ; o<=n-i ;o++ ){
             cout<<" "; 
         }

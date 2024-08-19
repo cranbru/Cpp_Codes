@@ -2,10 +2,12 @@
 using namespace std;
 
 int main(){
-    int input;
-    cout<<"ENTER THE NUMBER : \n";
-    cin>>input;
-    string convertvalue;
+    int input = 1;
+    // cout<<"ENTER THE NUMBER : \n";
+
+    char con[2] = char(input);
+    cout<<con;
+
 
     
 
