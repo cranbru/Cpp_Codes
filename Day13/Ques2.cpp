@@ -4,11 +4,16 @@ using namespace std;
 
 void sum(int arr[][4],int n , int m , int row){
     int sum =0 ; 
-    for(int i = row-1 ; i<row ; i++){
-        for(int j = 0 ; j<m ;j++){
-            sum+=arr[i][j];
-        }
+    // for(int i = row-1 ; i<row ; i++){ // BETTER AND CLEANER WAY BELOW
+    //     for(int j = 0 ; j<m ;j++){
+    //         sum+=arr[i][j];
+    //     }
+    // }
+
+    for(int j = 0 ; j <m; j++){
+        sum+=arr[row][j];
     }
+
     cout<<"THE SUM OF THE SECOND ROW IS : "<<sum;   
 }
 

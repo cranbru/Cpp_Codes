@@ -8,7 +8,7 @@ void numbercounter(int arr[][4],int n , int m , int num ){
             if (arr[i][j]==num){
                 count+=1;
 
-            }
+            }       
         }
     }
     cout<<"THEN NUMBER OF " << num <<" IS : "<<count<<endl;
