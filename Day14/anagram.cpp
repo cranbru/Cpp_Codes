@@ -2,6 +2,9 @@
 #include <string>
 using namespace std;
 
+// DOES NOT NEED TO BE ALPHABETS, CAN BE ANY CHARACTERS
+
+
 bool ana(string str1 , string str2 ){
     if(str1.length()!=str2.length()){
         cout<<"NOT AN ANAGRAM\n";
