@@ -1,0 +1,3 @@
+CIN
+cin has a drawback that whenever there is a space , no data beyond it is stored
+Basically space acts as a delimiter

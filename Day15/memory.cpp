@@ -1,6 +1,21 @@
 #include <iostream>
 using namespace std;
 
+//THIS CODE SHOWS DMA(DYNAMIC MEMORY ALLOCATION)
+//HEAP GROWTH IS A TERM THAT MEANS THE HEAP MEMORY WILL GROW UNTILL OUT OF RAM      
+
 int main(){
-    
+    int *arr = new int[5];//HEAP STORAGE MAI BANEGA 
+    for(int i =0;i<5;i++){
+        arr[i]=i+1;
+    }
+    cout<<"INPUT IS DONE"<<endl;
+    for(int i = 0 ; i <5 ;i++){
+        cout<<arr[i]<<" ";
+    }
+
+    delete[] arr;// IF DMA IS IN A USER DEFINED FUNC THEN THE POINTER WILL DELETE ASA THE COMPILER IS RETURNED TO MAIN OR AGAR DELETE NAHI KARUNGA TOH MEMORY "LEAK" HOJAEGA
+
+    //BUT WHEN A PROGRAM WILL END FINALLY IT WILL DELETE ALL THE MEMORY REGARDLESS
+    //BUT IN A SERVER A PROGRAM NEVER ENDS , SO ITS A GOOD PROGRAMER PRACTICE       
 }
