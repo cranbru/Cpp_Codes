@@ -26,8 +26,5 @@ int maxareafunc(vector <int>  height){
 
 int main(){
     vector <int> vec1 = {1,8,6,2,5,4,8,3,7};
-    cout<<maxareafunc(vec1);
-
-
-    
+    cout<<maxareafunc(vec1)<<endl;// IN MAC A '%'   SYMBOL IS PRINTED/SHOWN WHEN endl IS NOT USED ---- INVESTIGATE WHY  
 }
