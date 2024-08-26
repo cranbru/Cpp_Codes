@@ -1,2 +1,2 @@
 # Cpp_Codes
- This the complilation of the cpp codes i learn along the way
+ This the complilation of the cpp codes i learned along the way
