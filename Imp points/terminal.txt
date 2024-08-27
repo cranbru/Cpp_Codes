@@ -1,0 +1,14 @@
+THE ./a.out we use in this
+the ./ is telling that take the current directory 
+and a.out is telling to run the executable
+
+
+
+to make the executable file name something specific
+
+you can use -o while compiling 
+
+EG:-
+        g++ mycode.cpp -o myprogram
+
+now to run the file named myprogram ./myprogram
