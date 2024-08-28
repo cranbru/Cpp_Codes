@@ -15,12 +15,28 @@ void large(int i , int j , int k ){
     }else{
         cout<<k<<endl;
     }
+}
 
+int usingvariable(int i ,int j ,int k){
+    int big = 0;
+    if(i>j){
+        big = i;
+    }
+    else{
+        big = j;
+    }
 
+    if(big>k){}
+    else{
+        big=k;
+    }
+
+    return big;
 }
 
 int main(){
-    large(1111,20,3);
+    large(111,20,3);
+    cout<<usingvariable(111,20,3);
 
     return 0 ;
 }
