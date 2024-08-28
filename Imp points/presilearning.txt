@@ -1,0 +1,4 @@
+I learned that in finding the largest number , 
+you could use a variable , this would significantly 
+reduced the amount of decision boxes/ if else 
+statements.
