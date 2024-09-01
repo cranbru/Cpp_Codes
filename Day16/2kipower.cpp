@@ -12,5 +12,5 @@ string check2power(int num){
 }
 
 int main(){
-    cout<<check2power(32);
+    cout<<check2power(125);
 }
