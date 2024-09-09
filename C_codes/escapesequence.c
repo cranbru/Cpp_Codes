@@ -2,7 +2,7 @@
 
 int main() {
     // Using various escape sequences in one string
-    char *str = "Hello,\tWorld!\nThis is a test of \"escape sequences\".\n"
+    char str[] = "Hello,\tWorld!\nThis is a test of \"escape sequences\".\n"
                 "Here's a backslash: \\ \n"
                 "And a single quote: \' and a double quote: \"\n"
                 "A bell sound will follow: \a\n"
@@ -11,6 +11,7 @@ int main() {
                 "A vertical tab: \vNext line vertically.\n";
     
     // Printing the string
+    // for(int i =0 ; i)
     printf("%s", str);
     
     return 0;
