@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 void idk(){
@@ -11,6 +12,6 @@ void idk(){
 
 int main()
 {   
-    idk();
+    vector <int> v2;
     return 0 ;
 }
