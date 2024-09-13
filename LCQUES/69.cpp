@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//WRONG CODE , RIGHT CODE IS SUBMITTED ON LEETCODE
 int main(){
     int num = 50;
     
