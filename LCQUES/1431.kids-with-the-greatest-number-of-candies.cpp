@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode id=1431 lang=cpp
- *
- * [1431] Kids With the Greatest Number of Candies
- */
-
-// @lc code=start
 
 #include <iostream>
 #include <vector>
@@ -29,5 +22,5 @@ public:
     }
 };
 
-// @lc code=end
+
 
