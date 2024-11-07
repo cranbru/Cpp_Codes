@@ -3,7 +3,7 @@
 using namespace std;
 
 int kadane(vector <int> arr){
-    int currvalue=0 , maxvalue = INT_MIN;
+    int currvalue=0 , maxvalue = INT8_MIN;
     
     for(int i = 0 ; i<arr.size();i++){
         currvalue+=arr[i];
