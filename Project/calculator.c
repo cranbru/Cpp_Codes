@@ -37,7 +37,6 @@ int main() {
     double num1 , num2, ans;
     char operator;
 
-
     // Taking inputs from the user
     printf("Enter first number: ");
     scanf("%lf", &num1);
@@ -51,6 +50,31 @@ int main() {
     ans = calc(num1,num2,operator);
 
     printf("%.1lf %c %.1lf = %.2lf",num1,operator,num2,ans);
-
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
