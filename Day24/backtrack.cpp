@@ -17,7 +17,7 @@ void func(vector <int> &vec,int i){
     }
     vec[i]=i+1;
     func(vec,i+1);
-    vec[i]-=2;
+    vec[i]-=2;//BACKTRACK 
 }
 
 
