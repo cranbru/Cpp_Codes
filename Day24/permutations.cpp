@@ -10,12 +10,9 @@ void per(string str,string ans=""){
     }
     int n = str.size();
     for(int i = 0; i<n;i++){
-        per(str.substr(0,max(i-1,0)),ans+str[i]);
-
+        per(str.substr(0,i)+str.substr(i+1,n-i-1),ans+str[i]);
     }
 }
-
-
 
 
 int main() {
