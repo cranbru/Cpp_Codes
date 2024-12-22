@@ -1,2 +1,19 @@
-https://github.com/OJ/gobuster
-gobuster -u http://fakebank.thm -w wordlist.txt dir
+
+
+--->GOBUSTER
+
+
+    https://github.com/OJ/gobuster
+    gobuster -u http://fakebank.thm -w wordlist.txt dir    
+
+
+--->QR CODE READER 
+
+    https://qrcodescan.in/
+
+
+--->CEASER CIPHER
+
+ https://www.dcode.fr/caesar-cipher
+
+
