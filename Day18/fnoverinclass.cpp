@@ -19,5 +19,5 @@ public:
 
 int main(){
     Print p1;
-    p1.show("IDK");
+    p1.show(6);
 }

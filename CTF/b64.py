@@ -8,7 +8,7 @@ def decode_base64_multiple_times():
     """
     encoded_string = input("Enter the Base64-encoded string: ")
 
-    for i in range(1, 4):
+    for i in range(1, 9):
         try:
             # Decode the Base64 string
             decoded_bytes = base64.b64decode(encoded_string)
